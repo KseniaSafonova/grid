@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gridcontainer {
+            display: grid;
+            width: 100%;
+            height: 100%;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 20% 1fr 1fr 1fr 30%;
+        }
+
+        header {
+            background-color: coral;
+        }
+
+        main {
+            background-color: crimson;
+        }
+
+        .main {
+            background-color: darkcyan;
+        }
+
+        aside {
+            background-color: orange;
+        }
+
+        footer {
+            background-color: orangered;
+        }
+
+        .footer {
+            background-color: palegreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="gridcontainer">
+    <header></header>
+    <main>
+    <div class="main"></div>
+    <div class="main"></div>
+    <div class="main"></div>
+    </main>
+    <aside></aside>
+    <footer>
+    <div class="footer"></div>
+    <div class="footer"></div>
+    <div class="footer"></div>
+    <div class="footer"></div></footer>
+</div>
+</body>
+</html>
